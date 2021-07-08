@@ -1,0 +1,30 @@
+#pastas
+
+virtual/
+.vscode/
+scr/diversos
+statics
+templates
+doc
+base de dados/data
+
+#Arquivos especificos
+app_flask.py
+modulos/bancodedados
+json/market share/cutting.json
+json/market share/descricao.json
+base de dados/CSV/CAPI842101.CSV
+base de dados/CSV/CAPI842102.CSV
+json\filtros\ncm.json
+json\black list\black list01.xlsx
+json\market share\market_share - Copia.xlsx
+json/black list/black list01.xlsx
+json/market share/market_share - Copia.xlsx
+base de dados/CSV/CAPI842104.CSV
+base de dados/CSV/CAPI842105.CSV
+base de dados/CSV/CAPI842106.CSV
+base de dados/CSV/CAPI852104.CSV
+base de dados/CSV/CAPI852105.CSV
+base de dados/CSV/CAPI852106.CSV
+json/filtros/ncm.json
+

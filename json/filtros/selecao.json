@@ -1,0 +1,33 @@
+
+{ 
+    "columns":
+        ["selecao","titulo"], 
+
+    "data":[
+        ["False","NUMERO_DE_ORDEM"],
+        ["True", "ANOMES"],
+        ["True","COD_NCM"],
+        ["False","DESCRICAO_DO_CODIGO_NCM"],
+        ["False","CODIGO_PAIS_ORIGEM"],
+        ["True","PAIS_DE_ORIGEM"],
+        ["False","CODIGO_PAIS_AQUISICAO"],
+        ["False","PAIS_DE_AQUISICAO"],
+        ["False","UND_ESTAT"],
+        ["False","UNIDADE_DE_MEDIDA"],
+        ["False","UNIDADE_COMERC"],
+        ["True","DESCRICAO_DO_PRODUTO"],
+        ["False","QTDE_ESTATISTICA"],
+        ["False","PESO_LIQUIDO"],
+        ["False","VMLE_DOLAR"],
+        ["False","VL_FRETE_DOLAR"],
+        ["False","VL_SEGURO_DOLAR"],
+        ["True","VALOR_UN_PROD_DOLAR"],
+        ["True","QTD_COMERCIAL"],
+        ["True","TOT_UN_PROD_DOLAR"],
+        ["False","UNIDADE_DESEMBARQUE"],
+        ["False","UNIDADE_DESEMBARACO"],
+        ["False","INCOTERM"],
+        ["False","NAT_INFORMACAO "],
+        ["False","SITUACAO_DO_DESPACHO"]]
+}
+
