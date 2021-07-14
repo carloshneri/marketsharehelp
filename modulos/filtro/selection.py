@@ -27,7 +27,11 @@ def dataframe(caminho, arquivos, ncms):
         df_final = pd.concat([df_final,df])
         
     #df_final.drop_duplicates()
-    df_final["DESCRICAO_DO_PRODUTO"]=df_final["DESCRICAO_DO_PRODUTO"].str.upper()
+    df_final["DESCRICAO_DO_PRODUTO"]=df_final["DESCRICAO_DO_PRODUTO"].str.upper().str.rstrip()
+    df_final["QTD_COMERCIAL"]=pd.to_numeric(df_final["QTD_COMERCIAL"].str.strip().str.replace(',','.'))
+    df_final["VALOR_UN_PROD_DOLAR"]=pd.to_numeric(df_final["VALOR_UN_PROD_DOLAR"].str.strip().str.replace(',','.'))
+    df_final["TOT_UN_PROD_DOLAR"]=pd.to_numeric(df_final["TOT_UN_PROD_DOLAR"].str.strip().str.replace(',','.'))
+
     df_final['index'] = df_final.index
 
     df_final.to_excel('dataframe.xlsx',index=False)
