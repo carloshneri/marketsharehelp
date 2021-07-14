@@ -26,7 +26,7 @@ def dataframe(caminho, arquivos, ncms):
         df = df_temp[df_temp["COD_NCM"].isin(ncms)]
         df_final = pd.concat([df_final,df])
         
-    #df_final.drop_duplicates()
+    
     df_final["DESCRICAO_DO_PRODUTO"]=df_final["DESCRICAO_DO_PRODUTO"].str.upper().str.rstrip()
     df_final["QTD_COMERCIAL"]=pd.to_numeric(df_final["QTD_COMERCIAL"].str.strip().str.replace(',','.'))
     df_final["VALOR_UN_PROD_DOLAR"]=pd.to_numeric(df_final["VALOR_UN_PROD_DOLAR"].str.strip().str.replace(',','.'))
